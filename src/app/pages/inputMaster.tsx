@@ -103,49 +103,8 @@ const InputMaster: React.FC<InputProps> = ({
                     className="flex-1 bg-transparent outline-none border-none text-[15px] leading-[22px] font-[500] font-[Raleway] text-[#1B1822] placeholder:text-[#1B1822] disabled:text-[#717680] disabled:placeholder:text-[#717680]"
                 />
 
-                {/* RIGHT ICON */}
                 {rightLogo && <div className="pointer-events-none">{rightLogo}</div>}
             </div>
-
-            {/*<div className="relative w-full ">*/}
-            {/*    <div className="pl-[14px] flex flex-row gap-[8px]">*/}
-            {/*        {leftLogo && (*/}
-            {/*            <div className="absolute top-1/2 -translate-y-1/2 pointer-events-none ">*/}
-            {/*                {leftLogo}*/}
-            {/*            </div>*/}
-            {/*        )}*/}
-            {/*        {prefix && (*/}
-            {/*            <div*/}
-            {/*                className="absolute pl-[32px] top-1/2 -translate-y-1/2 text-[#717680] text-[15px] leading-[22px] font-[500] font-[Raleway]">*/}
-            {/*                {prefix}*/}
-            {/*            </div>*/}
-            {/*        )}*/}
-            {/*        {rightLogo && (*/}
-            {/*            <div className="absolute right-0 pr-[14px] top-1/2 -translate-y-1/2 pointer-events-none">*/}
-            {/*                {rightLogo}*/}
-            {/*            </div>*/}
-            {/*        )}*/}
-            {/*    </div>*/}
-
-            {/*    <input*/}
-            {/*        id={id}*/}
-            {/*        name={name}*/}
-            {/*        type="text"*/}
-            {/*        placeholder={placeholder}*/}
-            {/*        disabled={disabled}*/}
-            {/*        value={value}*/}
-            {/*        onChange={(e) => {*/}
-            {/*            setValue?.(e.target.value);*/}
-            {/*            setError?.(undefined);*/}
-            {/*        }}*/}
-            {/*        className={`w-full h-[44px] rounded-[12px] text-[15px] leading-[22px] font-[500] font-[Raleway]  */}
-            {/*pl-[100px] */}
-            {/*${rightLogo && "pr-[46px]"}*/}
-            {/*${disabled ? 'bg-[#EFEFEF] text-[#717680] placeholder-[#717680]' : 'bg-[#F8F8F8] text-[#1B1822] placeholder-[#1B1822] focus:border-[#717680] border-[1px]'}*/}
-            {/*${error ? 'border border-[#F04438]' : 'border border-transparent'}*/}
-            {/*`}*/}
-            {/*    />*/}
-            {/*</div>*/}
 
             {error ? (
                 <p className="text-[11px] leading-[15px] font-[500] font-[Raleway] text-[#F04438]">{error}</p>
