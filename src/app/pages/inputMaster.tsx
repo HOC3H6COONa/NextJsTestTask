@@ -92,8 +92,6 @@ const InputMaster: React.FC<InputProps> = ({
 
 
                 <input
-                    id={id}
-                    name={name}
                     type="text"
                     disabled={disabled}
                     value={value}
